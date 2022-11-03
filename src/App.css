@@ -1,0 +1,87 @@
+.bgimage{
+  justify-content: center;
+  background-image: url('./dorian.jpg');
+  height: 100vh;
+ 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+}
+/* .second{
+  justify-content: center;
+  background-image: url('./faint.jpg');
+  height: 100vh;
+ 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+} */
+.font{
+  font-family: serif;
+  font-size: 300%;
+  color:indigo;
+  
+}
+/* .row_hover{
+  transition: none;
+  transform: scale(1.08);
+} */
+
+/* 
+bgsec.{
+  justify-content: center;
+  background-image: url('./bgimage.jpg');
+  height: 100vh;
+ 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+} */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
